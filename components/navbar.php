@@ -1,8 +1,6 @@
 <?php
-
 include 'connect.php';
 session_start();
-
 
 $sql = $conn->prepare("SELECT * FROM `cart` WHERE `user_id` = ?");
 $sql->bind_param("s", $_SESSION['user_id']);
@@ -11,8 +9,10 @@ $result = $sql->get_result();
 
 $_SESSION['cartItem_no'] = $result->num_rows;
 
-
-
+$sql = $conn->prepare("SELECT * FROM `cakes` WHERE `user_email` = ?");
+$sql->bind_param("s", $_SESSION['email']);
+$sql->execute();
+$result = $sql->get_result();
 
 ?>
 
@@ -38,7 +38,7 @@ $_SESSION['cartItem_no'] = $result->num_rows;
 <body>
     <nav class="navbar bg-body-tertiary">
         <div class="container-fluid justify-content-center">
-            <a class="navbar-brand" href="/ppa/home.php"><img src="./images/Logo.png" width="100px" alt="" srcset=""></a>
+            <a class="navbar-brand" href="/ppa/home.php"><img src="./images/logo.png" width="100px" alt="" srcset=""></a>
             <section class="search-form justify-content-center">
                 <form action="search.php" method="post">
                     <input type="text" name="search_box" placeholder="Search here...." maxlength="100" class="box">
@@ -61,31 +61,41 @@ $_SESSION['cartItem_no'] = $result->num_rows;
             <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 " id="navcolor">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="/ppa/home.php">Home</a>
+                        <a class="nav-link active" aria-current="page" href="/mitsunochikaraa/home.php">Home</a>
                     </li>
                     <li class="nav-item">
-                    <?php
-                if (isset($_SESSION['loggedin']) == true) {
-                    echo '<a class="nav-link" href="./orderDetails.php">Order</a>';
-                }else{
-                    echo '<a class="nav-link" href="./login.php">Order</a>';
-                }
-                ?>
+                        <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) : ?>
+                            <a class="nav-link" href="./orderDetails.php">Order</a>
+                        <?php else : ?>
+                            <a class="nav-link" href="./login.php">Order</a>
+                        <?php endif; ?>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Catogories
+                            Categories
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="product.php">Baby Care</a></li>
-                            <li><a class="dropdown-item" href="product.php">Beauty Care</a></li>
-                            <li><a class="dropdown-item" href="product.php">Vitamins and Supplies</a></li>
-                            <li><a class="dropdown-item" href="product.php">Mobility Aids</a></li>
-
+                            <li><a class="dropdown-item" href="product.php">Birthday Cakes</a></li>
+                            <li><a class="dropdown-item" href="product.php">Wedding Cakes</a></li>
+                            <li><a class="dropdown-item" href="product.php">Anniversary Cakes</a></li>
+                            <li><a class="dropdown-item" href="product.php">Cup Cakes</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="product.php">Shop</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Customize
+                        </a>
+                        <ul class="dropdown-menu">
+    <?php if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] === true) : ?>
+        <li><a class="dropdown-item" href="cakeCuztomize.php">Customize Now</a></li>
+        <li><a class="dropdown-item" href="customizedOrders.php">Customize Orders</a></li>
+    <?php else : ?>
+        <li><a class="dropdown-item" href="login.php">Login to Customize</a></li>
+    <?php endif; ?>
+</ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="about.php">About</a>

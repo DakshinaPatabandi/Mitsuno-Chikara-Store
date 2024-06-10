@@ -31,25 +31,12 @@ include 'components/navbar.php';
     <div id="loading-spinner"></div><br>
     <p>Page is loading...</p>
   </div>
-  <!-- <button type="button" class="btn btn-primary" id="liveToastBtn">Show live toast</button>
-
-  <div class="toast-container position-fixed bottom-0 end-0 p-3">
-    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
-      <div class="toast-header">
-        <img src="..." class="rounded me-2" alt="...">
-        <strong class="me-auto">Bootstrap</strong>
-        <small id="lblTime">11 mins ago</small>
-        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-      </div>
-      <div class="toast-body">
-        Hello, world! This is a toast message.
-      </div>
-    </div>
-  </div> -->
 
   <div class="aboutxt">
-    <img src="images/pexels-anna-shvets-3683074 - Copy.jpg" class="bg-img">
+    <img src="images/landing_img.jpg" class="bg-img">
     <div class="top-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, earum magnam.
+      Molestiae nam vel repellat nesciunt. Accusamus architecto fugit amet ad expedita voluptates ipsum nihil fugiat officia quaerat,
+      neque eius?Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, earum magnam.
       Molestiae nam vel repellat nesciunt. Accusamus architecto fugit amet ad expedita voluptates ipsum nihil fugiat officia quaerat,
       neque eius?
     </div>
@@ -68,7 +55,7 @@ include 'components/navbar.php';
             <div class="col-sm-4 splide__slide m-2">
               <div class="card bg-dark text-white">
                 <div class="card-body card_1">
-                  <h5 class="card-title">Baby Care</h5>
+                  <h5 class="card-title">Birthday Cakes</h5>
                   <p class="card-text"><br><br><br></p>
                   <a href="product.php" class="btn btn-primary">Read more</a>
                 </div>
@@ -77,7 +64,7 @@ include 'components/navbar.php';
             <div class="col-sm-4 splide__slide m-2">
               <div class="card bg-dark text-white">
                 <div class="card-body card_2">
-                  <h5 class="card-title">Beauty Care</h5>
+                  <h5 class="card-title">Wedding Cakes</h5>
                   <p class="card-text"><br><br><br></p>
                   <a href="product.php" class="btn btn-primary">Read more</a>
                 </div>
@@ -86,7 +73,7 @@ include 'components/navbar.php';
             <div class="col-sm-4 splide__slide m-2">
               <div class="card bg-dark text-white">
                 <div class="card-body card_3">
-                  <h5 class="card-title">Vitamins and Suppplies</h5>
+                  <h5 class="card-title">Annivesary Cakes</h5>
                   <p class="card-text"><br><br><br></p>
                   <a href="product.php" class="btn btn-primary">Read more</a>
                 </div>
@@ -95,7 +82,7 @@ include 'components/navbar.php';
             <div class="col-sm-4 splide__slide m-2">
               <div class="card bg-dark text-white">
                 <div class="card-body card_4">
-                  <h5 class="card-title">Mobility Aids</h5>
+                  <h5 class="card-title">Cup Cakes</h5>
                   <p class="card-text"><br><br><br></p>
                   <a href="product.php" class="btn btn-primary">Read more</a>
                 </div>

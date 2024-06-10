@@ -7,6 +7,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
+
 <body>
 
    <footer class="footer">
@@ -32,15 +33,14 @@
          <div class="box">
             <h3>contact us</h3>
             <a href="tel:1234567890"><i class="bi bi-telephone-fill"></i> +123 456 7899</a>
-            <a href="tel:11122233333"><i class="bi bi-telephone-fill"></i> +111 222 3333</a>
-            <a href="mailto:helloh@gmail.com"><i class="bi bi-envelope-fill"></i> donpharmacy45@gmail.com</a>
+            <a href="tel:11122233333"><i class="bi bi-whatsapp"></i> +111 222 3333</a>
+            <a href="mailto:helloh@gmail.com"><i class="bi bi-envelope-fill"></i> mitsunochikara@gmail.com</a>
             <a href="https://www.google.com"><i class="bi bi-geo-alt-fill"></i> Address </a>
          </div>
 
          <div class="box">
             <h3>follow us</h3>
             <a href="#"><i class="bi bi-facebook"></i> Facebook</a>
-            <a href="#"><i class="bi bi-whatsapp"></i> Twitter</a>
             <a href="#"><i class="bi bi-instagram"></i> Instagram</a>
          </div>
 

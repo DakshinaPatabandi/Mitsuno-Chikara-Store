@@ -66,3 +66,50 @@
     display: flex;
     gap:1rem;
  }
+
+ /* CSS for table styling */
+
+.cake-order-container {
+   background-color: #f8f9fa;
+   border-radius: 10px;
+   padding: 11px;
+   margin-bottom: 20px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cake-order-container table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+.cake-order-container table th,
+.cake-order-container table td {
+   padding: 8px;
+   text-align: left;
+   border-bottom: 1px solid #dee2e6;
+}
+
+.cake-order-container table th {
+   width: 30%;
+   background-color: #e9ecef;
+}
+
+.cake-order-container table tbody tr:nth-child(even) {
+   background-color: #f2f2f2;
+}
+
+.form-control{
+   background-color: #9c9b9a;
+   color: #fff;
+}
+
+.select_status{
+   background-color: #faedaa;
+}
+
+ 
+ @media (max-width: 768px) {
+   .cake-details {
+     width: 100%;
+   }
+ }

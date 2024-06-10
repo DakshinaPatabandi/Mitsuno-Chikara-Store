@@ -19,7 +19,7 @@ if (isset($_POST['email']) && isset($_POST['password'])) {
          $sql = "SELECT * FROM users WHERE email='$email'";
          $result = $conn->query($sql);
          if ($result->num_rows > 0) {
-            $stat = "*Username already exists, please choose a different username";
+            $stat = "*User already exists, please choose a different account";
          } else {
 
             $hashed_password = password_hash($password, PASSWORD_DEFAULT);

@@ -55,8 +55,8 @@ if (mysqli_num_rows($result) > 0) {
     $mail->Host = 'smtp.gmail.com'; // Use Gmail SMTP server
     $mail->SMTPAuth = true;
 
-    $mail->Username = 'donpharmacy45@gmail.com'; // Your Gmail address
-    $mail->Password = 'cbhzxwepmvcrpphc'; // Your Gmail password
+    $mail->Username = 'rashmikachamod456@gmail.com'; // Your Gmail address
+    $mail->Password = 'znyuoddgcwbrbhlq'; // Your Gmail password
 
     $mail->SMTPSecure = 'tls';
     $mail->Port = 587;

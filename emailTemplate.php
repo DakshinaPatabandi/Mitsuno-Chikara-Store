@@ -413,7 +413,7 @@ $row = mysqli_fetch_assoc($result);
                                   <th class="column_logo" style="mso-line-height-rule: exactly; padding-top: 13px; padding-bottom: 13px;" align="center" bgcolor="#ffffff">
                                     <!-- Logo : BEGIN -->
                                     <a href="" target="_blank" style="color: #c3c3c3; text-decoration: none !important; text-underline: none;">
-                                      <img src="https://drive.google.com/uc?export=view&id=1_wNJmaivTvK-w1hYtrxBuYuiPu7qGVjX" class="logo " width="96" border="0" style="width: 104px; height: auto !important; display: block; text-align: center; margin: auto;">
+                                      <img src="" class="logo " width="96" border="0" style="width: 104px; height: auto !important; display: block; text-align: center; margin: auto;">
                                     </a>
                                     <!-- Logo : END -->
                                   </th>
@@ -708,7 +708,7 @@ $row = mysqli_fetch_assoc($result);
                                 <!-- BEGIN SECTION: Closing Text -->
                                 <tr id="section-1468276" class="section closing_text">
                                   <th data-key="1468276_closing_text" class="text" style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,'Karla'; font-size: 16px; line-height: 26px; font-weight: 400; color: #666363; padding: 13px 52px 52px;" align="center" bgcolor="#ffffff">
-                                    <p style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,'Karla'; font-size: 16px; line-height: 26px; font-weight: 400; color: #666363; margin: 0;" align="center">If you need help with anything please don't hesitate to drop us an email: donpharmacy45@gmail.com :)</p>
+                                    <p style="mso-line-height-rule: exactly; font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Arial,'Karla'; font-size: 16px; line-height: 26px; font-weight: 400; color: #666363; margin: 0;" align="center">If you need help with anything please don't hesitate to drop us an email: MitsunoChikara@gmail.com :)</p>
                                   </th>
                                 </tr>
                                 <!-- END SECTION: Closing Text -->

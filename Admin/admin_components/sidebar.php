@@ -8,7 +8,7 @@ include 'config.php';
 
 <!-- Sidebar - Brand -->
 <a class="sidebar-brand d-flex align-items-center justify-content-center" href="home.php">
-    <div class="sidebar-brand-text mx-3">Pharmacy Admin </div>
+    <div class="sidebar-brand-text mx-3">MitsunoChikara Admin </div>
 </a>
 
 <!-- Divider -->
@@ -40,9 +40,9 @@ include 'config.php';
             <h6 class="collapse-header">Components:</h6>
             <a class="collapse-item" href="customer.php">Customer</a>
             <a class="collapse-item" href="product.php">Products</a>
-            <a class="collapse-item" href="EmpRegister.php">Employee</a>
             <a class="collapse-item" href="supplier.php">Supplier</a>
-            <a class="collapse-item" href="placed_orders.php">Order</a>
+            <a class="collapse-item" href="placed_orders.php">Quick Orders</a>
+            <a class="collapse-item" href="cuztomized_orders.php">Cuztomized Orders</a>
         </div>
     </div>
 </li>

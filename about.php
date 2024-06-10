@@ -21,13 +21,22 @@
 
         <div class="row">
             <div class="image">
-                <img src="images/8663120_3966814.png" alt="">
+                <img src="images/logo.jpeg" alt=""><br><br><br>
+                <p>In response to the evolving needs of our clientele, we recognized the importance of a seamless online ordering system. The decision to transition from traditional order methods to a user-friendly e-commerce platform was fueled by our desire to provide you with a hassle-free and enjoyable experience from start to finish.
+                  What sets Mitsuno Chikara apart is not just our commitment to exceptional baking but also our unwavering dedication to customer satisfaction. Our e-commerce website is more than just a virtual storefront; it's a gateway to a world of possibilities where you can customize your cakes to match the uniqueness of your celebrations.
+                  We invite you to explore the cake-customizing function on our web application, where you can personalize your orders with ease. From selecting flavors to choosing intricate designs, Mitsuno Chikara ensures that each cake is a masterpiece tailored to your preferences.
+
+                  Thank you for being a part of our journey. As we embark on this digital adventure, we look forward to continuing to sweeten your moments and making Mitsuno Chikara a cornerstone of your joyous occasions.
             </div>
 
             <div class="content">
                 <h3>Why choose us</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vitae qui ab quam repellat autem natus totam optio accusamus ut at dolores accusantium incidunt fugit error dolorum atque, rem non suscipit.</p>
+                <p>Welcome to Mitsuno Chikara, where the art of baking meets the convenience of modern technology. Nestled in the heart of our kitchen is a passion for crafting delectable cakes that become the centerpiece of your most cherished celebrations. 
+                    At Mitsuno Chikara, we understand the challenges of managing orders in today's fast-paced digital age. With a commitment to enhancing your experience, we are proud to introduce our bespoke e-commerce application. 
+                    This innovative platform is designed to streamline the ordering process, ensuring efficiency and convenience for our valued customers. Our journey began with a simple yet profound goal: to bring joy and sweetness to every moment of your life. 
+                    Whether it's a dreamy wedding cake, a whimsical birthday creation, or a delightful batch of cupcakes, Mitsuno Chikara is dedicated to turning your sweet visions into reality.</p>
                 <button type="button" class="btn btn-primary">Contact us</button>
+                <img src="images/barker.png" alt="">
             </div>
         </div>
     </section>

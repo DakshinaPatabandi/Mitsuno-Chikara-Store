@@ -62,6 +62,7 @@ body::-webkit-scrollbar {
 
 .bg-img {
     width: 100%;
+    height: 650px;
 }
 
 .top-left {
@@ -79,8 +80,8 @@ body::-webkit-scrollbar {
 
 .moreBtn {
     position: absolute;
-    top: 500px;
-    left: 40px;
+    top: 700px;
+    left: 50px;
     border-radius: 7px;
     padding: 7px;
     font-size: 1.4rem;
@@ -106,7 +107,7 @@ body::-webkit-scrollbar {
 }
 
 .card_1 {
-    background-image: url("../images/pexels-laura-garcia-3564304.jpg");
+    background-image: url("../images/delicious-cake-candles-arrangement.jpg");
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -114,7 +115,7 @@ body::-webkit-scrollbar {
 }
 
 .card_2 {
-    background-image: url("../images/pexels-engin-akyurt-3148935.jpg");
+    background-image: url("../images/CC0A7047-scaled.jpg");
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -122,7 +123,7 @@ body::-webkit-scrollbar {
 }
 
 .card_3 {
-    background-image: url("../images/pexels-alex-green-5699519.jpg");
+    background-image: url("../images/anniversary-cake-1.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 5px;
@@ -130,9 +131,191 @@ body::-webkit-scrollbar {
 }
 
 .card_4 {
-    background-image: url("../images/rs=w_814\,cg_true.webp");
+    background-image: url("../images/download.jpg");
     background-position: center;
     background-repeat: no-repeat;
     border-radius: 5px;
     background-size: cover;
 }
+
+
+
+.heading {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .cake-container {
+    display: flex;
+    justify-content: center;
+    margin-left: -35%;
+  }
+  
+  .cake-details {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    width: 35%;
+    background-color: #ffe3f8;
+  }
+  
+  .cake-details form {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    background-color: #ffe3f8;
+  }
+  
+  .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .detail-title {
+    width: 20%;
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .detail-value {
+    width: 80%;
+  }
+  
+ .select-del {
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    width: 100%;
+    background-color: #868687;
+    color: #fff;
+  }
+
+  .select-del::placeholder {
+    color: #fff; /* Set placeholder text color to white */
+}
+
+  .select-del-cat{
+    background-color: #f0edef;  
+    color: #000;
+  }
+
+  .select-more{
+    padding: 0.5rem 1rem;
+    font-size: 1.1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    width: 128%;
+    height: 100px;
+    background-color: #d6d6d6;
+    margin-top: 1rem;
+  }
+  
+  .detail-more {
+    width: 80%;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #999;
+  }
+
+  #success_message{
+    text-align: center;
+  }
+  
+  .btn_cuz {
+    cursor: pointer;
+    background-color: var(--main-color); /* Using variable for main color */
+    color: var(--white); /* Using variable for white color */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+    width: 40%;
+    margin-left: 34%;
+    margin-top: 4%;
+  }
+
+  .btn_cuz:hover {
+    background-color: var(--orange); /* Using variable for orange color on hover */
+}
+
+
+/* CSS for table styling */
+
+.cake-order-container {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cake-order-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cake-order-container table th,
+.cake-order-container table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.cake-order-container table th {
+    width: 30%;
+    background-color: #e9ecef;
+}
+
+.cake-order-container table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.pay-status{
+  color: #2212cc;
+}
+
+.pay-status span{
+  margin-left: 10px;
+}
+
+.completed {
+  color: green;
+}
+
+.pending {
+  color: red;
+}
+
+.cake-imge {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cake-imge img {
+  width: 370px; /* Set a fixed width */
+  height: 270px; /* Set a fixed height */
+  object-fit: cover; /* Ensure the image covers the specified dimensions */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-left: 60%; /* Center the image horizontally */
+  margin-bottom: -50%;
+}
+
+
+
+  
+  @media (max-width: 768px) {
+    .cake-details {
+      width: 100%;
+    }
+  }

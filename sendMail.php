@@ -17,14 +17,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $mail->isSMTP();
     $mail->Host       = 'smtp.gmail.com';
     $mail->SMTPAuth   = true;
-    $mail->Username   = 'rithikzoysa@gmail.com'; // Your Gmail email address
-    $mail->Password   = 'nbzhtitvinumespe'; // Your Gmail password
+    $mail->Username   = 'rashmikachamod456@gmail.com'; // Your Gmail email address
+    $mail->Password   = 'znyuoddgcwbrbhlq'; // Your Gmail password
     $mail->SMTPSecure = 'tls';
     $mail->Port       = 587;
 
     // Set sender and recipient(s)
-    $mail->setFrom('rithikzoysa@gmail.com', 'Don Pharmacy'); // Sender email and name
-    $mail->addAddress('nihalpremanath@gmail.com', 'Rithik Zoysa'); // Recipient email and name
+    $mail->setFrom('rashmikachamod456@gmail.com', 'Don Pharmacy'); // Sender email and name
+    $mail->addAddress('hansikaveesha627@gmail.com', 'kavisa'); // Recipient email and name
 
     // Set email subject and body
     $mail->Subject = 'Order Placed';

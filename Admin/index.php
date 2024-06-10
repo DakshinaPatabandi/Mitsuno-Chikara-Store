@@ -27,7 +27,7 @@ if (isset($_POST['submit'])) {
 <html>
 
 <head>
-  <title>Admin Login</title>
+  <title>MitsunoChikara Admin Login</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/stylesheet.css">
   <style>
